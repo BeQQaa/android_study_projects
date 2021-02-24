@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Проверочник</string>
+    <string name="press_to_check">Нажми проверить</string>
+    <string name="press_to_uncheck">Нажми снять проверку</string>
+    <string name="check_box">Проверочник</string>
+    <string name="checker">Проверка</string>
+</resources>

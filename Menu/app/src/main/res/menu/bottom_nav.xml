@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/bottom_nav_first" android:title="@string/first"
+        android:icon="@drawable/ic_baseline_picture_as_pdf_24_bot_nav"/>
+
+    <item android:id="@+id/bottom_nav_second" android:title="@string/second"
+        android:icon="@drawable/ic_baseline_picture_in_picture_24_bot_nav"/>
+
+    <item android:id="@+id/bottom_nav_third" android:title="@string/third"
+        android:icon="@drawable/ic_baseline_short_text_24"/>
+</menu>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">localmessenger</string>
+    <string name="hint">Send Message</string>
+    <string name="send">Enter a message</string>
+</resources>

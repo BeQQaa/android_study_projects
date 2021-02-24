@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Life Cycle Edit</string>
+    <string name="enter_text">Enter text</string>
+    <string name="commit">Commit</string>
+    <string name="to_edit">To Edit</string>
+    <string name="end_button">End Button</string>
+</resources>

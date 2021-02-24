@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TrafficLights</string>
+    <string name="stop_on_click">Stop</string>
+    <string name="start_on_click">Start</string>
+</resources>

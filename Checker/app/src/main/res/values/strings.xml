@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Checker</string>
+    <string name="press_to_check">Press To Check</string>
+    <string name="press_to_uncheck">Press To Uncheck</string>
+    <string name="check_box">Check box</string>
+    <string name="checker">Checker</string>
+    <string name="sample_button">Sample Button</string>
+</resources>

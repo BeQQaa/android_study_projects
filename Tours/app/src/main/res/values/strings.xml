@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tours</string>
+    <string name="buy_tour">Buy tour</string>
+    <string name="in_the_islands_tour">In the islands in some were</string>
+    <string name="todo">TODO</string>
+    <string name="_1430_price">1430$</string>
+    <string name="go_to">Go to</string>
+    <string name="simple_description">Simple Description</string>
+
+</resources>

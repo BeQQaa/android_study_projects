@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="10dp">
+
+  <TextView
+      android:id="@+id/display_calculator"
+      android:layout_margin="5dp"
+      android:background="#685F5F"
+      android:textSize="45sp"
+      android:gravity="center|end"
+      android:textColor="#DC7200"
+      android:layout_width="match_parent"
+      android:layout_height="100dp"/>
+
+  <TableLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+    >
+
+    <TableRow>
+
+      <Button
+          android:id="@+id/id_button_seven"
+          android:text="@string/_7"
+          android:layout_height="50dp"
+          android:layout_width="50dp"
+          android:layout_margin="5dp"/>
+      <Button
+          android:id="@+id/id_button_eight"
+          android:text="@string/_8"
+          android:layout_height="50dp"
+          android:layout_width="50dp"
+          android:layout_margin="5dp"/>
+      <Button
+          android:id="@+id/id_button_nine"
+          android:text="@string/_9"
+          android:layout_height="50dp"
+          android:layout_width="50dp"
+          android:layout_margin="5dp"/>
+      <Button
+          android:id="@+id/id_button_divide"
+          android:text="@string/div"
+          android:layout_height="50dp"
+          android:layout_width="50dp"
+          android:layout_margin="5dp"/>
+      <Button
+          android:id="@+id/id_button_delete"
+          android:textSize="8sp"
+          android:text="@string/del"
+          android:layout_height="50dp"
+          android:layout_width="50dp"
+          android:layout_margin="5dp"/>
+      <Button
+          android:id="@+id/id_button_clear"
+          android:text="@string/clear"
+          android:layout_height="50dp"
+          android:layout_width="50dp"
+          android:layout_margin="5dp"/>
+
+    </TableRow>
+    <TableRow>
+
+    <Button
+        android:id="@+id/id_button_four"
+        android:text="@string/_4"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/id_button_five"
+        android:text="@string/_5"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/id_button_six"
+        android:text="@string/_6"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/id_button_multiply"
+        android:text="@string/multi"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_margin="5dp"/>
+  </TableRow>
+    <TableRow>
+
+    <Button
+        android:id="@+id/id_button_one"
+        android:text="@string/_1"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/id_button_two"
+        android:text="@string/_2"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_margin="5dp"/>
+    <Button
+        android:text="@string/_3"
+        android:id="@+id/id_button_three"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/id_button_minus"
+        android:text="@string/minus"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/id_button_pow"
+        android:text="@string/pov"
+        android:textSize="8sp"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/id_button_sqrt"
+        android:text="@string/sqr"
+        android:textSize="8sp"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_margin="5dp"/>
+
+  </TableRow>
+    <TableRow>
+
+    <Button
+        android:id="@+id/id_button_zero"
+        android:text="@string/_0"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/id_button_float"
+        android:text="@string/float_res"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/id_button_percent"
+        android:text="@string/per"
+        android:textSize="8sp"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/id_button_plus"
+        android:text="@string/sum"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/id_button_equals"
+        android:text="@string/res"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_margin="5dp"/>
+
+  </TableRow>
+
+
+  </TableLayout>
+  
+</LinearLayout>
+
